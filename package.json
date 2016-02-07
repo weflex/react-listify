@@ -1,0 +1,24 @@
+{
+  "name": "react-listify",
+  "version": "1.0.0",
+  "description": "List View Component based on React that supports loading progress bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/react-listify.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "list-view"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/react-listify/issues"
+  },
+  "homepage": "https://github.com/weflex/react-listify#readme"
+}

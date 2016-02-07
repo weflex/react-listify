@@ -1,0 +1,133 @@
+/**
+ * Layout
+ */
+.list-table, .list-view {
+  display: inline-block;
+}
+
+.list-table {
+  width: 70%;
+  color: #555;
+}
+
+.list-view {
+  float: right;
+  width: 30%;
+  color: #555;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.list-table .loader {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.list-table .loader p {
+  font-size: 12px;
+  font-family: 'PingFang SC', sans-serif;
+}
+
+/**
+ * Table
+ */
+
+.list-table-header {
+  font-size: 14px;
+  background-color: #f7f7f7;
+}
+
+.list-table-header > .list-table-column {
+  border-right: 1px solid #e7e7e7;
+  margin: 10px 0px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.list-table-header > .list-table-column:hover {
+  color: #4a90e2;
+}
+
+.list-table-column {
+  display: inline-block;
+  width: 25%;
+  padding: 0px 15px;
+  margin: 15px 0px;
+  box-sizing: border-box;
+}
+
+.list-table-rows {
+  transition: all .3s ease-in-out;
+}
+
+.list-table-row {
+  font-size: 12px;
+  border-top: 1px solid #e7e7e7;
+  position: relative;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  background-color: #f7f7f7;
+}
+
+.list-table-row:hover {
+  background-color: #eeeeee;
+}
+
+.list-table-row-selected, .list-table-row-selected:hover {
+  background-color: #415071;
+  color: #fff;
+}
+
+.list-table-triangle {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #fff;
+}
+
+/**
+ * View
+ */
+
+.list-view-header {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.list-view-content {
+  position: relative;
+}
+
+.list-view-fieldset > * {
+  display: inline-block;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.list-view-fieldset > label {
+  width: 30%;
+}
+
+.list-view-fieldset > span {
+  width: 60%;
+}
+
+.list-view-fieldset-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.list-view-blank {
+  height: 20px;
+}
+
+.list-view-avatar {
+  border-radius: 50%;
+  height: 70px;
+}
